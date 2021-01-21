@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <sys/ptrace.h>
 #include <sys/user.h>
-
+#include <unistd.h>
 
 ProcessMemory::ProcessMemory(pid_t pid)
     : m_pid(pid) {

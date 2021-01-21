@@ -110,5 +110,5 @@ void HandlerWatcher::onOpenEnd(CallParams* cp, ProcessMemory*) {
     if (!m_needWatch)
         return;
 
-    m_handlers.emplace_back(m_name, cp->retVal());
+    m_handlers.push_back(Handler(m_name, cp->retVal()));
 }

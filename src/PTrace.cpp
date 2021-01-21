@@ -7,6 +7,8 @@
 #include <errno.h>
 #include <sys/ptrace.h>
 #include <sys/user.h>
+#include <sys/types.h>
+#include <unistd.h>
 #include <iostream>
 
 #define SHOW_CALL_STACK 0
