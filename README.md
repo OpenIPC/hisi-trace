@@ -18,4 +18,6 @@ hisi-tracer /path/to/Sofia.
 Сборка:
 
 Используется система сборки cmake. Там же где и openipc собирается в корне выполняем:
+```
 make -j1 V=s package/feeds/glutinium/hisi-trace/{clean,compile,install}
+```
