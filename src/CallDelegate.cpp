@@ -30,7 +30,7 @@ bool CallDelegate::onCallStart(CallParams* cp, ProcessMemory* pm) {
 }
 
 void CallDelegate::onCallEnd(CallParams* cp, ProcessMemory* pm) {
-    switch(cp->syscall()) {
+    switch(m_cachedSyscall) {
     case __NR_open: {
         return m_handlers->onOpenEnd(cp, pm);
     }

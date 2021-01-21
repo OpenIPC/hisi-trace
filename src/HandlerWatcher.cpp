@@ -98,11 +98,7 @@ bool HandlerWatcher::onOpenStart(CallParams* cp, ProcessMemory* pm) {
     return false;
 }
 
-bool HandlerWatcher::needResultReplaceOpen(CallParams* cp, ProcessMemory* pm) {
-    if (!m_needWatch)
-        return false;
-
-//    replaceFname3Sym(cp->arg(0), pm, 'o');
+bool HandlerWatcher::needResultReplaceOpen(CallParams*, ProcessMemory*) {
     return false;
 }
 
