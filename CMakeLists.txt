@@ -14,3 +14,5 @@ add_executable(${PROJECT_NAME} ${PRJ_SRCS})
 target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE
     ${PROJECT_SOURCE_DIR}/src
     )
+
+install(TARGETS hisi-trace RUNTIME DESTINATION /usr/sbin/)
