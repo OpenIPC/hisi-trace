@@ -1,3 +1,5 @@
+[EN](README.md)
+
 # hisi-trace
 HiSilicon tracer
 
