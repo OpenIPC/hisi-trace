@@ -1,3 +1,5 @@
+[RU](README_ru.md)
+
 # hisi-trace
 HiSilicon tracer
 
